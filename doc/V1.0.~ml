@@ -565,7 +565,7 @@
 <XPD:ATTR name="Left" type="integer">60</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">92</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">193</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">163</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">150</XPD:ATTR>
 <XPD:REF name="Model">gsu4rjwclEKk1xVpcQuRAgAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="fJe0trUDFEqaYP222yV+8wAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="6nZZkEq67EWTmA0z76qj4QAA">
@@ -597,7 +597,7 @@
 <XPD:ATTR name="Left" type="integer">352</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">100</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">158</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">150</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">137</XPD:ATTR>
 <XPD:REF name="Model">XIjw04iUQE6rvmiUG/G+VgAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="f1qZCdMXcEyUk+hHZwuEUwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="vVn/9OioI0awIzHzNp/WYwAA">
@@ -978,7 +978,7 @@
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">443,249;443,304;548,304</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">443,236;443,304;548,304</XPD:ATTR>
 <XPD:REF name="Model">IUQh9kgzcEG8Cy7LpZ2pBAAA</XPD:REF>
 <XPD:REF name="Head">2prhXeEXU02Y1l22crIwHAAA</XPD:REF>
 <XPD:REF name="Tail">WSDrEq14skaiW9AZ3ov2MwAA</XPD:REF>
@@ -1205,51 +1205,46 @@
 <XPD:REF name="Views[3]">pyjCfbY6tUimAHbTQUG1hgAA</XPD:REF>
 <XPD:ATTR name="#Associations" type="integer">1</XPD:ATTR>
 <XPD:REF name="Associations[0]">8W9EBF3So0+1cwFZ17jbGQAA</XPD:REF>
-<XPD:ATTR name="#Attributes" type="integer">10</XPD:ATTR>
-<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="VefI08PrWUyJh1lwiViXTgAA">
-<XPD:ATTR name="Name" type="string">id</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
-<XPD:REF name="Owner">gsu4rjwclEKk1xVpcQuRAgAA</XPD:REF>
-</XPD:OBJ>
-<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="XUVNxu6HTkOHB7xOCxzuAwAA">
+<XPD:ATTR name="#Attributes" type="integer">9</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="XUVNxu6HTkOHB7xOCxzuAwAA">
 <XPD:ATTR name="Name" type="string">name:VARCHAR(256)</XPD:ATTR>
 <XPD:REF name="Owner">gsu4rjwclEKk1xVpcQuRAgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="b2tWT4kl9UOjmxUebRsvcwAA">
+<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="b2tWT4kl9UOjmxUebRsvcwAA">
 <XPD:ATTR name="Name" type="string">age:INT</XPD:ATTR>
 <XPD:REF name="Owner">gsu4rjwclEKk1xVpcQuRAgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="5J9cvIVFxkyx8iR/8xTNRQAA">
+<XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="5J9cvIVFxkyx8iR/8xTNRQAA">
 <XPD:ATTR name="Name" type="string">phone</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">VARCHAR(100)</XPD:ATTR>
 <XPD:REF name="Owner">gsu4rjwclEKk1xVpcQuRAgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="Hq61+0rRXU+r/qFG1WwwuAAA">
+<XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="Hq61+0rRXU+r/qFG1WwwuAAA">
 <XPD:ATTR name="Name" type="string">sex</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">INT</XPD:ATTR>
 <XPD:REF name="Owner">gsu4rjwclEKk1xVpcQuRAgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[5]" type="UMLAttribute" guid="oZ8NTnSi3EqAM/n2rF6oPAAA">
+<XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="oZ8NTnSi3EqAM/n2rF6oPAAA">
 <XPD:ATTR name="Name" type="string">pid</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">BIGINT</XPD:ATTR>
 <XPD:REF name="Owner">gsu4rjwclEKk1xVpcQuRAgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[6]" type="UMLAttribute" guid="xDnQ2LeV1UOvrQQZDZ2RDQAA">
+<XPD:OBJ name="Attributes[5]" type="UMLAttribute" guid="xDnQ2LeV1UOvrQQZDZ2RDQAA">
 <XPD:ATTR name="Name" type="string">address</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">VARCHR(256)</XPD:ATTR>
 <XPD:REF name="Owner">gsu4rjwclEKk1xVpcQuRAgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[7]" type="UMLAttribute" guid="HPPoruz7HkCza6Za+BJ1hQAA">
+<XPD:OBJ name="Attributes[6]" type="UMLAttribute" guid="HPPoruz7HkCza6Za+BJ1hQAA">
 <XPD:ATTR name="Name" type="string">card_number</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">VARCHAR(100)</XPD:ATTR>
 <XPD:REF name="Owner">gsu4rjwclEKk1xVpcQuRAgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[8]" type="UMLAttribute" guid="lTM2yo1Ux0Kwd2CLngUX7gAA">
+<XPD:OBJ name="Attributes[7]" type="UMLAttribute" guid="lTM2yo1Ux0Kwd2CLngUX7gAA">
 <XPD:ATTR name="Name" type="string">card_serial_number</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">VARCHAR(100)</XPD:ATTR>
 <XPD:REF name="Owner">gsu4rjwclEKk1xVpcQuRAgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[9]" type="UMLAttribute" guid="DzAM4f23pECrXT9Jx55dYQAA">
+<XPD:OBJ name="Attributes[8]" type="UMLAttribute" guid="DzAM4f23pECrXT9Jx55dYQAA">
 <XPD:ATTR name="Name" type="string">create_date</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">DATETIME</XPD:ATTR>
 <XPD:REF name="Owner">gsu4rjwclEKk1xVpcQuRAgAA</XPD:REF>
@@ -1268,48 +1263,43 @@
 <XPD:REF name="Associations[1]">Qb6vycoZ8kCTSnfYNeMq8wAA</XPD:REF>
 <XPD:REF name="Associations[2]">po+OgUcEjkGN0GcJA2hL1QAA</XPD:REF>
 <XPD:REF name="Associations[3]">hwlNph4+HUCzBmNmZGbs+wAA</XPD:REF>
-<XPD:ATTR name="#Attributes" type="integer">9</XPD:ATTR>
-<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="OXpZWGahKketeLbCR+qCwgAA">
-<XPD:ATTR name="Name" type="string">id</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">:int</XPD:ATTR>
-<XPD:REF name="Owner">XIjw04iUQE6rvmiUG/G+VgAA</XPD:REF>
-</XPD:OBJ>
-<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="ZJ1U+bzBkE6GMTY7SzlIGgAA">
+<XPD:ATTR name="#Attributes" type="integer">8</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="ZJ1U+bzBkE6GMTY7SzlIGgAA">
 <XPD:ATTR name="Name" type="string">pid</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">BIGINT</XPD:ATTR>
 <XPD:REF name="Owner">XIjw04iUQE6rvmiUG/G+VgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="RghH/Z8WeUq0lS7jdpH+NQAA">
+<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="RghH/Z8WeUq0lS7jdpH+NQAA">
 <XPD:ATTR name="Name" type="string">create_date</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">DATETIME</XPD:ATTR>
 <XPD:REF name="Owner">XIjw04iUQE6rvmiUG/G+VgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="NhFcIQCvr02tqDIlqzcSHwAA">
+<XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="NhFcIQCvr02tqDIlqzcSHwAA">
 <XPD:ATTR name="Name" type="string">type</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">INT</XPD:ATTR>
 <XPD:REF name="Owner">XIjw04iUQE6rvmiUG/G+VgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="1cve71+sTkK/Iy4rQAtSGAAA">
+<XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="1cve71+sTkK/Iy4rQAtSGAAA">
 <XPD:ATTR name="Name" type="string">result</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">DOUBLE</XPD:ATTR>
 <XPD:REF name="Owner">XIjw04iUQE6rvmiUG/G+VgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[5]" type="UMLAttribute" guid="/oDmZsBIq0qAg5Kx7hHH2AAA">
+<XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="/oDmZsBIq0qAg5Kx7hHH2AAA">
 <XPD:ATTR name="Name" type="string">unit</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="Owner">XIjw04iUQE6rvmiUG/G+VgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[6]" type="UMLAttribute" guid="wUgTZFb02kiPDFNZIMjvmQAA">
+<XPD:OBJ name="Attributes[5]" type="UMLAttribute" guid="wUgTZFb02kiPDFNZIMjvmQAA">
 <XPD:ATTR name="Name" type="string">institutions</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="Owner">XIjw04iUQE6rvmiUG/G+VgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[7]" type="UMLAttribute" guid="sG4uKSa48UevqHiKXP1RlQAA">
+<XPD:OBJ name="Attributes[6]" type="UMLAttribute" guid="sG4uKSa48UevqHiKXP1RlQAA">
 <XPD:ATTR name="Name" type="string">check_name</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">VARCHAR(256)</XPD:ATTR>
 <XPD:REF name="Owner">XIjw04iUQE6rvmiUG/G+VgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[8]" type="UMLAttribute" guid="334cPQbbIU62ezIdKyq62AAA">
+<XPD:OBJ name="Attributes[7]" type="UMLAttribute" guid="334cPQbbIU62ezIdKyq62AAA">
 <XPD:ATTR name="Name" type="string">case_no</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">BIGINT</XPD:ATTR>
 <XPD:REF name="Owner">XIjw04iUQE6rvmiUG/G+VgAA</XPD:REF>
