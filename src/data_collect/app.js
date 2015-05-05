@@ -1,5 +1,6 @@
 var express = require('express');
-//var routes = require('./routes');
+var sysconfig = require('./common/system_config');
+sysconfig.readProperty('data_input.properties');
 var input = require('./service/data_input');
 var path = require('path');
 
@@ -13,8 +14,11 @@ var errorHandler = require('errorhandler');
 
 var app = express();
 
+
+
+
 // all environments
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || sysconfig.getProperty('port'));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 //app.use(favicon(__dirname + '/public/favicon.ico'));

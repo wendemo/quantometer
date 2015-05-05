@@ -1,4 +1,4 @@
-var dbpool = require('./MysqlDao')
+var dbpool = require('../common/mysql_wraper')
 
 exports.saveData = function(data){
     dbpool.getConnection(function(err, connection) {
