@@ -21,7 +21,7 @@ def unpackHttp(data):
 if __name__ == '__main__':
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sock.connect((host, port))
-    sock.send(packHttp('{"name": "John", "age": 18 }'))
+    sock.send(packHttp('{ "pid":1, "result":0.1, "unit":1, "institutions":1, "check_name":"11", "case_no":1, "create_date": "", "device_id":1 }'))
     recv_data = sock.recv(1024)
     unpackHttp(recv_data)
     sock.close()

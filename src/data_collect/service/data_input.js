@@ -1,9 +1,9 @@
-var dataDao = require('../dao/testDao')
+var dataDao = require('../dao/resultDao')
 
 exports.DataInput = function(req, res){
     data = req.body;
     
-	dataDao.saveData(data);
+    dataDao.saveData(data);
 	
     res.send('SUCCESS');
 }
