@@ -1,7 +1,7 @@
 import socket
 import time
 
-host = '192.168.56.101'
+host = '121.42.10.210'
 port = 3000
 
 def packHttp(data):

@@ -6,6 +6,7 @@ exports.getData = function(range, callback){
 	  // connected! (unless `err` is set)
 	    if (err) {
 		   console.log(err); 
+                   throw err;
 		   return;
 		}
 		
@@ -35,10 +36,11 @@ exports.getUser = function(range, callback){
 	  // connected! (unless `err` is set)
 	    if (err) {
 		   console.log(err); 
+                   throw err;
 		   return;
 		}
 		
-		connection.query( 'SELECT * FROM patient_info WHERE pid = ? AND device_id = ?', range,function(err, rows) {
+		connection.query( 'SELECT name, phone, address, card_number, age, sex FROM patient_info WHERE pid = ? AND device_id = ?', range,function(err, rows) {
 		    // And done with the connection.
 			if (err) {
 			   console.log(err); 

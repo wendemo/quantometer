@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <title>Basic DataGrid - jQuery EasyUI Demo</title>
-    <link rel="stylesheet" type="text/css" href="./themes/default/easyui.css">
-    <link rel="stylesheet" type="text/css" href="./themes/icon.css">
-    <link rel="stylesheet" type="text/css" href="./themes/demo.css">
-    <script type="text/javascript" src="./jquery.min.js"></script>
-    <script type="text/javascript" src="./jquery.easyui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./data/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="./data/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="./data/themes/demo.css">
+    <script type="text/javascript" src="./data/jquery.min.js"></script>
+    <script type="text/javascript" src="./data/jquery.easyui.min.js"></script>
 </head>
 <body>
     <h2>Basic DataGrid</h2>
@@ -15,7 +15,7 @@
     <div style="margin:20px 0;"></div>
     
     <table id="testgrid" class="easyui-datagrid" title="Basic DataGrid" style="width:700px;height:250px"
-            data-options="singleSelect:true,collapsible:true,url:'query',method:'get'">
+            data-options="singleSelect:true,collapsible:true,url:'query.do',method:'get'">
         <thead>
             <tr>
                 <th data-options="field:'name',width:80">姓名</th>
@@ -31,7 +31,7 @@
  <script type="text/javascript">
 	$('#testgrid').datagrid( {
   onDblClickRow :function(rowIndex,rowData){
-       $.get("user", { pid: rowData.pid, device_id: rowData.device_id }, function(data){
+       $.get("user.do", { pid: rowData.pid, device_id: rowData.device_id }, function(data){
 	       alert(data);
 	   });
   } });
