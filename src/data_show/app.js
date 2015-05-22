@@ -1,6 +1,6 @@
 var express = require('express');
 var sysconfig = require('./common/system_config');
-sysconfig.readProperty('data_show.properties');
+sysconfig.readProperty('./data_show.properties');
 var query = require('./service/data_query');
 var path = require('path');
 

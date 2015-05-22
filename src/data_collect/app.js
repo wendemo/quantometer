@@ -1,6 +1,6 @@
 var express = require('express');
 var sysconfig = require('./common/system_config');
-sysconfig.readProperty('data_input.properties');
+sysconfig.readProperty('./data_input.properties');
 var input = require('./service/data_input');
 var path = require('path');
 
