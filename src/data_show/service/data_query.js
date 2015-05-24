@@ -11,7 +11,7 @@ exports.DataQuery = function(req, res){
 exports.UserQuery = function(req, res){
     //console.log(req);
 	//res.send("SUCCESS");
-	var range = [Number(req.query.pid), Number(req.query.device_id)];
+	var range = [Number(req.query.pid), req.query.device_id];
     
     dataDao.getUser(range, function(rows){
 	        res.send(JSON.stringify(rows));
